@@ -1,2 +1,1 @@
-# TP2_GUI
- 
+# IFT1025-TP2-server
