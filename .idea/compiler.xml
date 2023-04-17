@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Server" />
+        <module name="TP2_GUI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Server" target="14" />
+      <module name="TP2_GUI" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>

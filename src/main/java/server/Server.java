@@ -132,10 +132,16 @@ public class Server {
                     "\t"+form.getPrenom()+"\t"+form.getNom()+"\t"+form.getEmail()+"\n");
             writer.close();
             // Renvoi du message de confirmation
-            objectOutputStream.writeObject("Inscription reussie de "+form.getPrenom()+" pour le cours "+form.getCourse().getCode()+"!");
+            objectOutputStream.writeObject("Inscription reussie pour "+form.getPrenom()+" pour le cours "+form.getCourse().getCode()+"!");
             objectOutputStream.flush();
         }catch (ClassNotFoundException | IOException e){
-            e.printStackTrace();
+            e.getMessage();
+            try{
+                objectOutputStream.writeObject("Erreur \n"+e.getMessage());
+                objectOutputStream.flush();
+            }catch (IOException ex){
+                ex.printStackTrace();
+            }
         }
     }
 }

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="client_fx:jar" />
+      <artifact name="client_simple:jar" />
+      <artifact name="server:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -9,6 +16,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,40 +45,55 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/godjo/OneDrive/Documents/GitHub/TP2_GUI/src/main/resources/client_simple-jar/META-INF",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.Client" />
-      <module name="Server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="MVC" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.client_simple.jar">
+    <configuration name="TP2_GUI.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/client_simpl_jar/TP2_GUI.jar" />
+      <method v="2" />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MVC.Main" />
-      <module name="Server" />
-      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MVC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="TP2_GUI.jar (2)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/client_fx_jar/TP2_GUI.jar" />
+      <method v="2" />
     </configuration>
+    <configuration name="client_fx.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/client_fx_jar/client_fx.jar" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.fxml,javafx.controls,javafx.graphics " />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client_simple.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/client_simple_jar/client_simple.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/server_jar/server.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.TP2_GUI.jar (1)" />
+      <item itemvalue="JAR Application.TP2_GUI.jar (2)" />
+      <item itemvalue="JAR Application.client_fx.jar" />
+      <item itemvalue="JAR Application.client_simple.jar" />
+      <item itemvalue="JAR Application.server.jar" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
+        <item itemvalue="JAR Application.client_simple.jar" />
+        <item itemvalue="JAR Application.server.jar" />
+        <item itemvalue="JAR Application.client_fx.jar" />
+        <item itemvalue="JAR Application.TP2_GUI.jar (2)" />
+        <item itemvalue="JAR Application.TP2_GUI.jar (1)" />
       </list>
     </recent_temporary>
   </component>
