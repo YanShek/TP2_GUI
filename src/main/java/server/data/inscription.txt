@@ -2,3 +2,13 @@ Automne	IFT2255	12345678	Michalis	Famelis	mfamelis@iro.umontreal.ca
 
 Ete	IFT2256	444333	Bertrand	Magic	mb@no.jr
 Hiver	IFT1025	123233	frfre	beref	n@n.gf
+Automne	IFT1227	123456	Mibefrwef	Bernard	n@N.gf
+Automne	IFT1227	123456	Mibefrwef	Bernard	n@N.gf
+Automne	IFT2255	123456	gfggf	434	n@n.gf
+Automne	IFT2255	333333	grefd	5342	n@n.io
+Automne	IFT1227	333333	gorje	432	info@homedepot.ca
+Automne	IFT2255	444333	Grgf	gfgdgd	ds@fg.ree
+Automne	IFT2255	444333	Grgf	gfgdgd	ds@fg.ree
+Automne	IFT1015	555666	fsdf	fdsf	n@n.gr
+Automne	IFT2256	333444	Jean	Greg	n@n.hf
+Automne	IFT2255	123456	afdsf	fdgdf	h@s.utt.rc

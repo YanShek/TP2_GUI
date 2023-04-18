@@ -91,10 +91,13 @@ public class Model {
 
         switch (type){
             case "nom" -> {
+                if (!entree.matches("^[A-Za-z]+$")){
+                    message = "Erreur/Nom invalide/Le nom doit contenir uniquement des lettres.";
+                }
             }
             case "prenom" -> {
                 if (!entree.matches("^[A-Za-z]+$")){
-                    message = "Erreur/"+type+"invalide/Le " +type+ " doit contenir uniquement des lettres.";
+                    message = "Erreur/Prenom invalide/Le prenom doit contenir uniquement des lettres.";
                 }
             }
             case "email"->{
