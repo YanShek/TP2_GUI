@@ -60,7 +60,7 @@ public class Model {
      * @param matricule Numero de matricule saisi en entree
      * @param code Code du cours
      * @param session   La session dans laquelle l'inscription a lieu
-     * @return Message de succes oou d'erreur
+     * @return Message de succes ou d'erreur
      */
     public String inscription(String nom, String prenom,String email, String matricule, String code, String session){
         RegistrationForm form = new RegistrationForm(prenom, nom, email, matricule, new Course("", code, session));
@@ -94,7 +94,7 @@ public class Model {
             }
             case "prenom" -> {
                 if (!entree.matches("^[A-Za-z]+$")){
-                    message = "Erreur/"+type+"invalide/Le " +type+ "doit contenir uniquement des lettres.";
+                    message = "Erreur/"+type+"invalide/Le " +type+ " doit contenir uniquement des lettres.";
                 }
             }
             case "email"->{

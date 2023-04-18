@@ -41,7 +41,7 @@ public class Controller implements Initializable{
 
 
     /**
-     * Loads and displays the courses in the GUI
+     * Charge et affiche les cours dans le GUI
      */
     @FXML
     public void loadCours(){
@@ -57,9 +57,6 @@ public class Controller implements Initializable{
     }
 
 
-    /**
-     * Loads and displays the courses in the GUI
-     */
     @FXML
     private TextField nomTextField;
     @FXML
@@ -74,7 +71,6 @@ public class Controller implements Initializable{
      */
     @FXML
     public void inscriptionCours(){
-        model.connectServer();
         if (selectedCours != null) {
             String nom = nomTextField.getText();
             String prenom = prenomTxtField.getText();
@@ -101,12 +97,13 @@ public class Controller implements Initializable{
                 showErrorAlert(verifMatricule[0], verifMatricule[1], verifMatricule[2]);
             }
             else{
-               String message = model.inscription(nom, prenom, email, matricule, code, session);
-               if (message.split("\n").equals("Erreur")){
-                   showErrorAlert("Erreur", message.split("\n")[1], "Une erreur est survenu lors de l'enregistrement");
-               } else {
-                   showErrorAlert("Succes", message, "");
-               }
+                model.connectServer();
+                String message = model.inscription(nom, prenom, email, matricule, code, session);
+                if (message.split("\n")[0].equals("Erreur")){
+                    showErrorAlert("Erreur", message.split("\n")[1], "Une erreur est survenu lors de l'enregistrement");
+                } else {
+                    showErrorAlert("Succes", message, "");
+                }
             }
 
         }else {
